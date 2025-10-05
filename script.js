@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
 
-    // Create the addTask Function
     function addTask() {
         const taskText = taskInput.value.trim();
 
